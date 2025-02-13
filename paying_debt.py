@@ -34,9 +34,9 @@ def balance_with_minimum_payment(balance,annual_interest_rate, minimum_monthly_p
         balance = unpaid_balance  + (unpaid_balance * monthly_interest_rate)
     return balance
 def main()-> None:
-    balance_at_years_end(42, 0.2, 0.04)
-    minimum_monthly_payment = minimum_monthly_payment_to_clear_debt(4773, 0.2)
-    closing_balance = balance_with_minimum_payment(3329, 0.2, minimum_monthly_payment = minimum_monthly_payment)
+    #balance_at_years_end(42, 0.2, 0.04)
+    #minimum_monthly_payment = minimum_monthly_payment_to_clear_debt(4773, 0.2)
+    closing_balance = balance_with_minimum_payment(320000, 0.2, 29591.881132069757)
     print("Closing balance: "+ str(closing_balance))
 
 if __name__ =="__main__":
